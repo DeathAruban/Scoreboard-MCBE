@@ -61,6 +61,30 @@ Before proceeding check the affected version of floating text if it is compatibl
 | Xbox x/s   | :white_check_mark: |
 | Switch | :white_check_mark:  |
 
+## Server Client support
+
+| Device | Supported   |
+| ------- | ------------------   |
+| Pocketmine | :white_check_mark:  |
+| Nukkit  | :white_check_mark:  |
+| LiteLoader  |  :white_check_mark: |
+| BedrockPowder  | :white_check_mark: |
+| MiNET  | :white_check_mark: |
+| Podrum | :white_check_mark:  |
+| DragonFly | :white_check_mark:  |
+| JukeBoxMC | :white_check_mark:  |
+| BDSX | :white_check_mark:  |
+| BlueBird | :white_check_mark:  |
+| GreenFrogMCBE | :white_check_mark:  |
+| Netrex | :white_check_mark:  |
+| SteadFast2 | :white_check_mark:  |
+| LiteCore | :white_check_mark:  |
+| EskoBE | :white_check_mark:  |
+
 # How does it work
-## Lore Item+ 
-how to activate custom lore item, just run in chat
+## Scoreboard + 
+ Part edit
+ 
+ | Code Score Custom | Property Name | Type | Default Value | Description |
+ | $position_score_aru | offset | Vector [x, y] | [0, 0] | Position of the UI element relative to the parent UI element. It's TopLeft based meaning the coordinates [0, 0] start at the top left of the screen. |
+ 
