@@ -1,23 +1,23 @@
 <p align="center">
      <a href="https://mcpedl.com/floating-text-addon-2/">
 		<!--[if IE]>
-			<img src="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/lore_item_update.png" alt="FLoating Text Logo" title="Floating" loading="eager" />
+			<img src="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/logo_scoreboard.png" alt="FLoating Text Logo" title="Floating" loading="eager" />
 		<![endif]-->
 		<picture>
-			<source srcset="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/lore_item_update.png" media="(prefers-color-scheme: dark)">
-			<img src="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/lore_item_update.png" loading="eager" />
+			<source srcset="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/logo_scoreboard.png" media="(prefers-color-scheme: dark)">
+			<img src="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/logo_scoreboard.png" loading="eager" />
 		</picture>
 	</a><br>
-	<b>A highly customisable, Addon Lore Item+ for Minecraft: Bedrock Edition written in Json and javascript (API 1.19.70)</b>
+	<b>Texture Scoreboard + from maximum scoreboard customization for servers, realms and vanilla worlds</b>
 </p>
 
 <p align="center">
-	<a href="https://github.com/DeathAruban/Lore-Item-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Lore-Item-MCBE?label=release&sort=semver"></a>
-	<a href="https://github.com/DeathAruban/Lore-Item-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Lore-Item-MCBE/latest/total?sort=semver"></a>
+	<a href="https://github.com/DeathAruban/Scoreboard-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Scoreboard-MCBE?label=release&sort=semver"></a>
+	<a href="https://github.com/DeathAruban/Scoreboard-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Scoreboard-MCBElatest/total?sort=semver"></a>
 <img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/-xR-FUy7Jjk?style=social">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DeathAruban/Lore-Item-MCBE">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DeathAruban/Scoreboard-MCBE">
 <img alt="PingPong status" src="https://img.shields.io/pingpong/status/sp_7b7ce509b36c47ee9b20d041d018dc0a">
-<img alt="GitHub" src="https://img.shields.io/github/license/DeathAruban/Lore-Item-MCBE">
+<img alt="GitHub" src="https://img.shields.io/github/license/DeathAruban/Scoreboard-MCBE">
 </p>
 
 ## Warning
@@ -64,7 +64,3 @@ Before proceeding check the affected version of floating text if it is compatibl
 # How does it work
 ## Lore Item+ 
 how to activate custom lore item, just run in chat
-
-```bash
- /function lore
-```
