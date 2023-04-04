@@ -89,3 +89,12 @@ Before proceeding check the affected version of floating text if it is compatibl
  | ------- | ------------------  | ------------------  | ------------------  | 
  | $position_score_aru | offset | Vector [x, y] | [0, 0] | 
  | $icon_size | size | Vector [width, height] | ["default", "default"] |
+ | $anchor_from_aru | anchor_from | enum | center |
+ | $anchor_to_aru| anchor_to | enum | center |
+ | $position_icon | offset | Vector [x, y]| [0, 0] |
+ | $title_score_aru | font_type | enum | default |
+ | $title_size_aru | font_size | enum | normal |
+
+
+## For more Info visit Wiki Bedrock Json Ui
+[Link Wiki Bedrock Json Ui and more](https://wiki.bedrock.dev/json-ui/json-ui-documentation.html)
