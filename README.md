@@ -85,6 +85,6 @@ Before proceeding check the affected version of floating text if it is compatibl
 ## Scoreboard + 
  Part edit
  
- | Code Score Custom | Property Name | Type | Default Value | Description |
- | $position_score_aru | offset | Vector [x, y] | [0, 0] | Position of the UI element relative to the parent UI element. It's TopLeft based meaning the coordinates [0, 0] start at the top left of the screen. |
- 
+ | Code Score Custom | Property Name | Type | Default Value |
+ | $position_score_aru | offset | Vector [x, y] | [0, 0] | 
+ | $icon_size | size | Vector [width, height] | ["default", "default"] |
