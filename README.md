@@ -14,7 +14,7 @@
 <p align="center">
 	<a href="https://github.com/DeathAruban/Scoreboard-MCBE/releases/latest"><img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/DeathAruban/Scoreboard-MCBE?label=release&sort=semver"></a>
 	<a href="https://github.com/DeathAruban/Scoreboard-MCBE/releases/latest"><img alt="GitHub release (latest by SemVer)" src="https://img.shields.io/github/downloads/DeathAruban/Scoreboard-MCBE/latest/total?sort=semver"></a>
-<img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/-xR-FUy7Jjk?style=social">
+<img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/-xR-FUy7Jjk&t?style=social">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DeathAruban/Scoreboard-MCBE">
 <img alt="PingPong status" src="https://img.shields.io/pingpong/status/sp_7b7ce509b36c47ee9b20d041d018dc0a">
 <img alt="GitHub" src="https://img.shields.io/github/license/DeathAruban/Scoreboard-MCBE">
