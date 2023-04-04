@@ -86,5 +86,6 @@ Before proceeding check the affected version of floating text if it is compatibl
  Part edit
  
  | Code Score Custom | Property Name | Type | Default Value |
+ | ------- | ------------------  | ------------------  | ------------------  | 
  | $position_score_aru | offset | Vector [x, y] | [0, 0] | 
  | $icon_size | size | Vector [width, height] | ["default", "default"] |
