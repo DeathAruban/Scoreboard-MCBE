@@ -1,11 +1,11 @@
 <p align="center">
      <a href="https://mcpedl.com/floating-text-addon-2/">
 		<!--[if IE]>
-			<img src="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/logo_scoreboard.png" alt="FLoating Text Logo" title="Floating" loading="eager" />
+			<img src="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/img/logo_scoreboard.png" alt="FLoating Text Logo" title="Floating" loading="eager" />
 		<![endif]-->
 		<picture>
-			<source srcset="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/logo_scoreboard.png" media="(prefers-color-scheme: dark)">
-			<img src="https://github.com/DeathAruban/Lore-Item-MCBE/blob/main/img/logo_scoreboard.png" loading="eager" />
+			<source srcset="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/img/logo_scoreboard.png" media="(prefers-color-scheme: dark)">
+			<img src="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/img/logo_scoreboard.png" loading="eager" />
 		</picture>
 	</a><br>
 	<b>Texture Scoreboard + from maximum scoreboard customization for servers, realms and vanilla worlds</b>
