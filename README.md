@@ -23,6 +23,9 @@
 ## Warning
 Before proceeding check the affected version of floating text if it is compatible with Minecraft Bedrock
 
+Unicode Creatore JessicaDoMo
+[Creator Link]https://github.com/jesdicaDomo/Unicode-Bedrock-New
+
 ## Support for minecraft base worlds
 
 | World MCBE | Supported   |
