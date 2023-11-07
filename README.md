@@ -43,12 +43,14 @@ https://github.com/jesdicaDomo/Unicode-Bedrock-New
 
 | Version MCBE Beta| Supported   | 
 | ------- | ------------------   | 
-| 1.20.x   | :white_check_mark:  | 
+| 1.21.x   | :white_check_mark:  | 
 
 ## Support for minecraft base Server and Realms
 
 | Server/Realms MCBE | Supported   |
 | ------- | ------------------   |  
+| 1.21.x   |:white_check_mark: | 
+| 1.20.x   |:white_check_mark: | 
 | 1.19.60   |:white_check_mark: |   
 | 1.18.x   | :x:  | 
 | 1.17.x   |  :x: |
