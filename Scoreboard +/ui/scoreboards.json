@@ -1,0 +1,223 @@
+//  ||========================================================================================================================||
+//  ||                                                                                                                        ||
+//  ||  ________  _______   ________  _________  ___  ___  ________  ________  ___  ___  ________  ________  ________         ||
+//  || |\   ___ \|\  ___ \ |\   __  \|\___   ___\\  \|\  \|\   __  \|\   __  \|\  \|\  \|\   __  \|\   __  \|\   ___  \       ||
+//  ||  \ \  \_|\ \ \   __/|\ \  \|\  \|___ \  \_\ \  \\\  \ \  \|\  \ \  \|\  \ \  \\\  \ \  \|\ /\ \  \|\  \ \  \\ \  \     ||
+//  ||   \ \  \ \\ \ \  \_|/_\ \   __  \   \ \  \ \ \   __  \ \   __  \ \   _  _\ \  \\\  \ \   __  \ \   __  \ \  \\ \  \    ||
+//  ||    \ \  \_\\ \ \  \_|\ \ \  \ \  \   \ \  \ \ \  \ \  \ \  \ \  \ \  \\  \\ \  \\\  \ \  \|\  \ \  \ \  \ \  \\ \  \   ||
+//  ||     \ \_______\ \_______\ \__\ \__\   \ \__\ \ \__\ \__\ \__\ \__\ \__\\ _\\ \_______\ \_______\ \__\ \__\ \__\\ \__\  ||
+//  ||      \|_______|\|_______|\|__|\|__|    \|__|  \|__|\|__|\|__|\|__|\|__|\|__|\|_______|\|_______|\|__|\|__|\|__| \|__|  ||
+//  ||                                                                                                                        ||
+//  ||========================================================================================================================||
+//  ||                                                                                                                        ||                                                                                                                   
+//  ||                                              ★ Please do not modify this code ★                                       ||                                                                  
+//  ||                                   ► This Texture was created for Minecraft Bedrock Edition ◄                           || 
+//  ||                                                                                                                        ||
+//  ||========================================================================================================================||   
+{
+    "namespace": "scoreboard",
+
+    "scoreboard_sidebar_score": {
+        "type": "label",
+        "layer": 2,
+        "size": ["default", 10 ],
+        "text": "#player_score_sidebar",
+        "text_alignment": "right",
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "inherit_max_sibling_width": true,
+        "locked_alpha": 0.0,
+        "visible": false,
+        "color": [1.0, 1.0, 1.0, 0.0 ],
+        "bindings": [
+            {
+                "binding_name": "#player_score_sidebar",
+                "binding_type": "collection",
+                "binding_collection_name": "scoreboard_scores"
+            }
+        ]
+    },
+
+    "scoreboard_sidebar_player@scoreboard_ui.component_texture_scoreboard": {
+        "type": "label",
+        "layer": 2,
+        "text": "#player_name_sidebar",
+        "font_type" : "$player_score_aru",
+        "font_size": "$player_size_aru",
+        "text_alignment": "left",
+        "size": ["default",  10],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "inherit_max_sibling_width": true,
+        "locked_alpha": 1.0,
+        "color": "$player_name_color",
+        "bindings": [
+            {
+                "binding_name": "#player_name_sidebar",
+                "binding_type": "collection",
+                "binding_collection_name": "scoreboard_players"
+            }
+        ]
+    },
+    
+    "scoreboard_sidebar@scoreboard_ui.component_texture_scoreboard": {
+        "type": "panel",
+        "size": [ "100%cm","100%c"],
+        "anchor_from": "$anchor_from_aru",
+        "anchor_to": "$anchor_to_aru",
+        "offset": "$position_score_aru",
+        "ignored": "$scoreboards_feature_disabled",
+        "bindings": [
+            {
+                "binding_name": "#scoreboard_sidebar_visible",
+                "binding_type": "global",
+                "binding_name_override": "#visible"
+            }
+        ],
+        "controls": [
+            {
+                "main_score": {
+                    "type": "image",
+                    "alpha": "$transparency_bg",
+                    "texture": "$bg_scoreboard",
+                    "size": [ "100%cm+4px","100%c+5px"],
+                    "controls": [
+                        {
+                            "displayed_objective": {
+                                "type": "label",
+                                "offset": [ 0,2],
+                                "size": [ "default", 12],
+                                "font_size": "$title_size_aru",
+                                "font_type" : "$title_score_aru",
+                                "text": "#objective_sidebar_name",
+                                "anchor_from": "top_middle",
+                                "anchor_to": "top_middle",
+                                "text_alignment": "center",
+                                "inherit_max_sibling_width": true,
+                                "locked_alpha": 1.0,
+                                "layer": 1,
+                                "color": "$objective_title_color",
+                                "bindings": [
+                                    {
+                                        "binding_name": "#objective_sidebar_name",
+                                        "binding_type": "global"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_control_name": "displayed_objective",
+                                        "resolve_sibling_scope": true,
+                                        "source_property_name": "$text_aruban_inv",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "scoreboard_animation": {
+                                "type": "image",
+                                "layer":0,
+                                "size": "$icon_size",
+                                "offset": "$position_icon",
+                                "uv_size": "$icon_uv_size",
+                                "anchor_from": "top_middle",
+                                "anchor_to": "top_middle",
+                                "uv":"@scoreboard_ui.scoreboard1",
+                                "texture": "$icon_scoreboard_anim",
+                                "bindings": [
+                                    {
+                                        "binding_name": "#objective_sidebar_name",
+                                        "binding_type": "global"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_control_name": "scoreboard_animation",
+                                        "resolve_sibling_scope": true,
+                                        "source_property_name": "$logo_aruban_anim",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "scoreboard_logo": {
+                                "type": "image",
+                                "size": "$icon_size",
+                                "offset": "$position_icon",
+                                "anchor_from": "top_middle",
+                                "anchor_to": "top_middle",
+                                "texture": "$icon_scoreboard_base",
+                                "bindings": [
+                                    {
+                                        "binding_name": "#objective_sidebar_name",
+                                        "binding_type": "global"
+                                    },
+                                    {
+                                        "binding_type": "view",
+                                        "source_control_name": "scoreboard_logo",
+                                        "resolve_sibling_scope": true,
+                                        "source_property_name": "$logo_aruban_base",
+                                        "target_property_name": "#visible"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "lists": {
+                                "type": "panel",
+                                "anchor_from": "bottom_left",
+                                "anchor_to": "bottom_left",
+                                "inherit_max_sibling_width": true,
+                                "offset": [2, -1],
+                                "size": ["100%c","100%cm" ],
+                                "controls": [
+                                    {
+                                        "players": {
+                                            "type": "stack_panel",
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "size": [ "100%cm","100%c"],
+                                            "orientation": "vertical",
+                                            "collection_name": "scoreboard_players",
+                                            "factory": {
+                                                "name": "player_list_factory",
+                                                "control_name": "scoreboard.scoreboard_sidebar_player"
+                                            },
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#scoreboard_sidebar_size",
+                                                    "binding_type": "global",
+                                                    "binding_name_override": "#collection_length"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "scores": {
+                                            "type": "stack_panel",
+                                            "anchor_from": "top_right",
+                                            "anchor_to": "top_right",
+                                            "size": ["100%cm", "100%c"],
+                                            "orientation": "vertical",
+                                            "collection_name": "scoreboard_scores",
+                                            "factory": {
+                                                "name": "player_score_factory",
+                                                "control_name": "scoreboard.scoreboard_sidebar_score"
+                                            },
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#scoreboard_sidebar_size",
+                                                    "binding_type": "global",
+                                                    "binding_name_override": "#collection_length"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
