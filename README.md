@@ -21,7 +21,6 @@
 </p>
 
 ## Warning
-Before proceeding check the affected version of floating text if it is compatible with Minecraft Bedrock
 
 Unicode Creator JessicaDoMo
 https://github.com/jesdicaDomo/Unicode-Bedrock-New
