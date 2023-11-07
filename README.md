@@ -29,7 +29,9 @@ https://github.com/jesdicaDomo/Unicode-Bedrock-New
 ## Support for minecraft base worlds
 
 | World MCBE | Supported   |
-| ------- | ------------------   |  
+| ------- | ------------------   | 
+| 1.21.x   |:white_check_mark: | 
+| 1.20.x   |:white_check_mark: | 
 | 1.19.60   |:white_check_mark: |   
 | 1.18.x   | :x:  | 
 | 1.17.x   |  :x: |
