@@ -86,6 +86,7 @@ https://github.com/jesdicaDomo/Unicode-Bedrock-New
 | SteadFast2 | :white_check_mark:  |
 | LiteCore | :white_check_mark:  |
 | EskoBE | :white_check_mark:  |
+| PieMC | :white_check_mark:  |
 
 # How does it work
 ## Scoreboard + 
