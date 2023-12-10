@@ -1,5 +1,5 @@
 <p align="center">
-     <a href="https://mcpedl.com/floating-text-addon-2/">
+     <a href="https://github.com/DeathAruban/Scoreboard-MCBE">
 		<!--[if IE]>
 			<img src="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/img/logo_scoreboard.png" alt="FLoating Text Logo" title="Floating" loading="eager" />
 		<![endif]-->
