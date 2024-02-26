@@ -1,11 +1,11 @@
 <p align="center">
      <a href="https://github.com/DeathAruban/Scoreboard-MCBE">
 		<!--[if IE]>
-			<img src="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/img/logo_scoreboard.png" alt="FLoating Text Logo" title="Floating" loading="eager" />
+			<img src="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/img/scoreboard+_logo.png" alt="FLoating Text Logo" title="Floating" loading="eager" />
 		<![endif]-->
 		<picture>
-			<source srcset="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/logo/logo_scoreboard.png" media="(prefers-color-scheme: dark)">
-			<img src="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/logo/logo_scoreboard.png" loading="eager" />
+			<source srcset="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/logo/scoreboard+_logo.png" media="(prefers-color-scheme: dark)">
+			<img src="https://github.com/DeathAruban/Scoreboard-MCBE/blob/main/logo/scoreboard+_logo.png" loading="eager" />
 		</picture>
 	</a><br>
 	<b>Texture Scoreboard + from maximum scoreboard customization for servers, realms and vanilla worlds</b>
