@@ -66,7 +66,6 @@
         "anchor_from": "$anchor_from_aru",
         "anchor_to": "$anchor_to_aru",
         "offset": "$position_score_aru",
-        "ignored": "$scoreboards_feature_disabled",
         "bindings": [
             {
                 "binding_name": "#scoreboard_sidebar_visible",
